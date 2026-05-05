@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    padding: 20px;
+}
+h1{
+    margin-bottom: 10px;
+}
+.nav-bar{
+    margin-top: 10px;
+}
+.links{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.links a:hover{
+    background-color: white;
+    color: #007bff;
+}
+main{
+    padding: 30px;
+}
+section{
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+h2{
+    color: #007bff;
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+ul, ol{
+    margin-left: 20px;
+}
+.categorias{
+    list-style: none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+thead{
+    background-color: #007bff;
+    color: white;
+}
+th, td{
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+tbody tr:hover{
+    background-color: #f1f1f1;
+}
+.destaques ul{
+    list-style: none;
+}
+.destaques li{
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+footer{
+    text-align: center;
+    background-color: #123050;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+@media (max-width: 768px){
+    .links{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main{
+        padding: 15px;
+    }
+
+    section{
+        padding: 20px;
+    }
+}
